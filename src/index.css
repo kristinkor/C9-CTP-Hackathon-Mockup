@@ -26,6 +26,7 @@ code {
   width: 100%;
   height: 600px;
   background:  linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("/src/assets/bg.jpg") no-repeat center/ cover;
+  background-attachment: fixed;
 }
 
 .banner-block h1 {
@@ -61,17 +62,19 @@ code {
   min-width: 100px;
 }
 .image-tech {
-  width: 50%;
-  background: url("/src/assets/tech.png") no-repeat center/ cover;
+  width: 100%;
+  background: url("/src/assets/tech.png") no-repeat left center/ contain;
   left:0;
   opacity: 0.8;
+  background-attachment: fixed;
 }
 
 .image-art {
-  width: 50%;
-  background: url("/src/assets/art.png") no-repeat center/ cover;
+  width: 100%;
+  background: url("/src/assets/art.png") no-repeat right center/ contain;
   right:0;
   opacity: 0.3;
+  background-attachment: fixed;
   }
 
 svg {
